@@ -1,0 +1,11 @@
+pipleline {
+	agent any{
+	stages{
+	stage('WELCOME TO JENKINS'){
+	steps{
+	echo "Hi,This is just a welcome Jenkins File"
+	}
+	}
+	}
+	}
+}
