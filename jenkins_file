@@ -6,5 +6,10 @@ pipeline {
 	echo "Hi,This is just a welcome Jenkins File"
 	}
 	}
+	stage('Welcome On board'){
+	steps{
+	echo "Welcome Github!"
+	}
+	}
 	}
 }
