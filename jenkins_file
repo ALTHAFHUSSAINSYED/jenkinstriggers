@@ -11,5 +11,10 @@ pipeline {
 	echo "Welcome Github!"
 	}
 	}
+	stage('Welcome to Github'){
+	steps{
+	echo "GitHub HOOK"
+	}
+	}
 	}
 }
