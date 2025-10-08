@@ -16,5 +16,10 @@ pipeline {
 	echo "GitHub HOOK"
 	}
 	}
+	stage('GitPollscm'){
+	steps{
+	echo "* * * * * "
+	}
+	}
 	}
 }
